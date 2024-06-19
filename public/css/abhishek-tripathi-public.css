@@ -1,0 +1,57 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+ /* Style for dropdown button */
+.dropdown .dropdown-toggle {
+    display: block;
+	width: 100%;
+    padding: 10px 15px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+/* Style for dropdown menu */
+.dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+    left: 0;
+    transition: all 0.3s ease; /* Add smooth transition */
+}
+
+.dropdown .dropdown-menu li {
+    display: block;
+}
+
+/* Show dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style for dropdown menu items */
+.dropdown .dropdown-menu a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown .dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+.dropdown-menu {
+    padding: 0px;
+
+}
+
+a.dropdown-toggle {
+   
+    margin-top: 3px;
+}
